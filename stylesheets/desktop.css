@@ -1,0 +1,1046 @@
+p, h1 {
+  font-family: 'Inter', sans-serif;
+}
+.none {
+  display: none;
+}
+
+/* fire */
+.opa {
+  opacity: 70%;
+}
+.opa1 {
+  opacity: 50%;
+}
+.opa2 {
+  opacity: 20%;
+}
+
+/* menu */
+.menu {
+  position: relative;
+  background: rgba(1, 183, 109, 1);
+  height: 56vw;
+  width: 100vw;
+}
+.v1 {
+  background-image: url('../img/v1.png');
+  background-size: cover;
+  height: 36.7vw;
+  width: 43.5vw;
+  position: relative;
+  z-index: 2;
+}
+.v2 {
+  background-image: url('../img/v2.png');
+  background-size: cover;
+  height: 36.7vw;
+  width: 43.8vw;
+  margin-left: 56.25vw;
+  margin-top: -17.5vw;
+  position: relative;
+  z-index: 1;
+}
+.f1 {
+  background-image: url('../img/f1.png');
+  background-size: cover;
+  height: 9vw;
+  width: 9.5vw;
+  margin-left: 24vw;
+  margin-top: -54.5vw;
+  position: absolute;
+  z-index: 1;
+}
+.inf {
+  background-image: url('../img/inf.png');
+  background-size: cover;
+  height: 5vw;
+  width: 5vw;
+  margin-left: 92.5vw;
+  margin-top: -55vw;
+  position: absolute;
+  z-index: 2;
+}
+.f2 {
+  background-image: url('../img/f2.png');
+  background-size: cover;
+  height: 8.3vw;
+  width: 14vw;
+  margin-left: 75vw;
+  margin-top: -57vw;
+  position: absolute;
+  z-index: 1;
+}
+.f3 {
+  background-image: url('../img/f3.png');
+  background-size: cover;
+  height: 14vw;
+  width: 14vw;
+  margin-left: 2vw;
+  margin-top: -42vw;
+  position: absolute;
+  z-index: 2;
+}
+.f4 {
+  background-image: url('../img/f4.png');
+  background-size: cover;
+  height: 11.5vw;
+  width: 7vw;
+  margin-left: 93vw;
+  margin-top: -45vw;
+  position: absolute;
+  z-index: 1;
+}
+.f5 {
+  background-image: url('../img/f5.png');
+  background-size: cover;
+  height: 15vw;
+  width: 14.7vw;
+  margin-left: 71vw;
+  margin-top: -16vw;
+  position: absolute;
+  z-index: 2;
+}
+.f6 {
+  background-image: url('../img/f6.png');
+  background-size: cover;
+  height: 5vw;
+  width: 10vw;
+  margin-left: 10vw;
+  margin-top: -5vw;
+  position: absolute;
+  z-index: 2;
+}
+.save {
+  font-size: 6vw;
+  color: white;
+  font-weight: 900;
+  margin-left: 26vw;
+  margin-top: -42vw;
+  position: absolute;
+  z-index: 2;
+}
+.logo {
+  font-size: 3vw;
+  color: white;
+  font-weight: 900;
+  margin-left: 3vw;
+  margin-top: -54vw;
+  position: absolute;
+  z-index: 2;
+}
+.f {
+  background-image: url('../img/forest.png');
+  background-size: cover;
+  height: 7vw;
+  width: 40vw;
+  margin-left: 31vw;
+  margin-top: -32vw;
+  position: absolute;
+  z-index: 2;
+}
+.r {
+  background-image: url('../img/rubbish.png');
+  background-size: cover;
+  height: 7vw;
+  width: 40vw;
+  margin-left: 31vw;
+  margin-top: -24vw;
+  position: absolute;
+  z-index: 2;
+}
+.ff {
+  background-image: url('../img/fire.png');
+  background-size: cover;
+  height: 7vw;
+  width: 40vw;
+  margin-left: 31vw;
+  margin-top: -16vw;
+  position: absolute;
+  z-index: 2;
+}
+
+
+/* info */
+.info {
+  position: relative;
+  background: rgba(1, 183, 109, 1);
+  height: 56vw;
+  width: 100vw;
+}
+.inf_2 {
+  background-image: url('../img/back.png');
+  background-size: cover;
+  height: 5vw;
+  width: 5vw;
+  margin-left: 92.5vw;
+  margin-top: -55vw;
+  position: absolute;
+  z-index: 2;
+}
+.hse {
+  background-image: url('../img/hse.png');
+  background-size: cover;
+  height: 9vw;
+  width: 22vw;
+  margin-left: 2.5vw;
+  margin-top: -11vw;
+  position: absolute;
+  z-index: 2;
+}
+.ww {
+  font-size: 3.5vw;
+  color: white;
+  font-weight: 900;
+  margin-left: 34vw;
+  margin-top: -39vw;
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+}
+.w {
+  font-size: 3.5vw;
+  color: white;
+  font-weight: 900;
+  margin-left: 30vw;
+  margin-top: -24vw;
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+}
+
+
+/* 1 game */
+.Fgame {
+  position: relative;
+  background: rgba(143, 215, 255, 1);
+  height: 56vw;
+  width: 100vw;
+}
+.ground {
+  background-image: url('../img/menu.png');
+  background-size: cover;
+  margin-top: 24vw;
+  margin-left: 0vw;
+  height: 32vw;
+  width: 100vw;
+  background: black;
+  position: absolute;
+  z-index: 1;
+}
+.tablet {
+  background-image: url('../img/tablet.png');
+  background-size: cover;
+  height: 49vw;
+  width: 22.2vw;
+  margin-left: 76vw;
+  margin-top: 1vw;
+  position: absolute;
+  z-index: 2;
+}
+.ready {
+  background-image: url('../img/ready.png');
+  background-size: cover;
+  height: 4.3vw;
+  width: 22.2vw;
+  margin-left: 76vw;
+  margin-top: 50vw;
+  position: absolute;
+  z-index: 2;
+}
+.sun {
+  background-image: url('../img/sun.png');
+  background-size: cover;
+  height: 4.67vw;
+  width: 4.67vw;
+  margin-left: 3.5vw;
+  margin-top: 0.8vw;
+  position: absolute;
+  z-index: 2;
+}
+.t1 {
+  background-image: url('../img/t1.png');
+  background-size: cover;
+  height: 11vw;
+  width: 4.8vw;
+  margin-left: 14.2vw;
+  margin-top: 0.6vw;
+  position: absolute;
+  z-index: 2;
+}
+.fl1 {
+  background-image: url('../img/fl1.png');
+  background-size: cover;
+  height: 5vw;
+  width: 5.9vw;
+  margin-left: 2.9vw;
+  margin-top: 6.5vw;
+  position: absolute;
+  z-index: 2;
+}
+.fl2 {
+  background-image: url('../img/fl3.png');
+  background-size: cover;
+  height: 4.6vw;
+  width: 4.5vw;
+  margin-left: 3.6vw;
+  margin-top: 13.3vw;
+  position: absolute;
+  z-index: 2;
+}
+.fl3 {
+  background-image: url('../img/fl2.png');
+  background-size: cover;
+  height: 4.6vw;
+  width: 4.65vw;
+  margin-left: 14.2vw;
+  margin-top: 13.2vw;
+  position: absolute;
+  z-index: 2;
+}
+.t2 {
+  background-image: url('../img/t2.png');
+  background-size: cover;
+  height: 11vw;
+  width: 5.8vw;
+  margin-left: 2.9vw;
+  margin-top: 19vw;
+  position: absolute;
+  z-index: 2;
+}
+.c1 {
+  background-image: url('../img/c1.png');
+  background-size: cover;
+  height: 4.7vw;
+  width: 6.8vw;
+  margin-left: 13.15vw;
+  margin-top: 19vw;
+  position: absolute;
+  z-index: 2;
+}
+.t3 {
+  background-image: url('../img/t3.png');
+  background-size: cover;
+  height: 4.7vw;
+  width: 4vw;
+  margin-left: 14.6vw;
+  margin-top: 25.2vw;
+  position: absolute;
+  z-index: 2;
+}
+.t4 {
+  background-image: url('../img/t4.png');
+  background-size: cover;
+  height: 5.4vw;
+  width: 3vw;
+  margin-left: 4.25vw;
+  margin-top: 30.95vw;
+  position: absolute;
+  z-index: 2;
+}
+.c2 {
+  background-image: url('../img/c2.png');
+  background-size: cover;
+  height: 3.3vw;
+  width: 7.9vw;
+  margin-left: 12.5vw;
+  margin-top: 32.2vw;
+  position: absolute;
+  z-index: 2;
+}
+.t5 {
+  background-image: url('../img/t5.png');
+  background-size: cover;
+  height: 5vw;
+  width: 3.6vw;
+  margin-left: 3.9vw;
+  margin-top: 37vw;
+  position: absolute;
+  z-index: 2;
+}
+.t6 {
+  background-image: url('../img/t6.png');
+  background-size: cover;
+  height: 10.6vw;
+  width: 8vw;
+  margin-left: 12.7vw;
+  margin-top: 37.59vw;
+  position: absolute;
+  z-index: 2;
+}
+.trava {
+  background-image: url('../img/trava.png');
+  background-size: cover;
+  height: 5.5vw;
+  width: 3.5vw;
+  margin-left: 4vw;
+  margin-top: 43vw;
+  position: absolute;
+  z-index: 2;
+}
+.belka {
+  background-image: url('../img/belka.png');
+  background-size: cover;
+  height: 12vw;
+  width: 14vw;
+  margin-left: -34vw;
+  margin-top: 23vw;
+  position: absolute;
+  z-index: 2;
+}
+
+
+/* 2 game */
+.Sgame {
+  position: relative;
+  background: rgba(143, 215, 255, 1);
+  height: 56vw;
+  width: 100vw;
+}
+.p {
+  background-image: url('../img/paket1.png');
+  background-size: cover;
+  height: 5vw;
+  width: 7.8vw;
+  margin-left: 25vw;
+  margin-top: 22vw;
+  position: absolute;
+  z-index: 2;
+}
+.p_1 {
+  background-image: url('../img/paket2.png');
+  background-size: cover;
+  height: 6vw;
+  width: 7.8vw;
+  margin-left: 10vw;
+  margin-top: 35vw;
+  position: absolute;
+  z-index: 1;
+}
+.p_2 {
+  background-image: url('../img/paket3.png');
+  background-size: cover;
+  height: 6.8vw;
+  width: 9vw;
+  margin-left: 57vw;
+  margin-top: 26vw;
+  position: absolute;
+  z-index: 1;
+}
+.p_3 {
+  background-image: url('../img/paket4.png');
+  background-size: cover;
+  height: 8.2vw;
+  width: 9vw;
+  margin-left: 80vw;
+  margin-top: 27vw;
+  position: absolute;
+  z-index: 1;
+}
+.b {
+  background-image: url('../img/butilka.png');
+  background-size: cover;
+  height: 8vw;
+  width: 4.4vw;
+  margin-left: 23vw;
+  margin-top: 46vw;
+  position: absolute;
+  z-index: 2;
+}
+.b_1 {
+  background-image: url('../img/butilka.png');
+  background-size: cover;
+  height: 6vw;
+  width: 3.3vw;
+  margin-left: 90vw;
+  margin-top: 36vw;
+  position: absolute;
+  z-index: 2;
+}
+.b_2 {
+  background-image: url('../img/butilka.png');
+  background-size: cover;
+  height: 8vw;
+  width: 4.4vw;
+  margin-left: 94vw;
+  margin-top: 47vw;
+  position: absolute;
+  z-index: 2;
+}
+.b_3 {
+  background-image: url('../img/butilka1.png');
+  background-size: cover;
+  height: 5.2vw;
+  width: 8vw;
+  margin-left: 62.5vw;
+  margin-top: 46vw;
+  position: absolute;
+  z-index: 2;
+}
+.ch {
+  background-image: url('../img/chashka.png');
+  background-size: cover;
+  height: 3vw;
+  width: 3.9vw;
+  margin-left: 4vw;
+  margin-top: 42vw;
+  position: absolute;
+  z-index: 2;
+}
+.ch_1 {
+  background-image: url('../img/chashka.png');
+  background-size: cover;
+  height: 3vw;
+  width: 3.9vw;
+  margin-left: 39vw;
+  margin-top: 48vw;
+  position: absolute;
+  z-index: 2;
+}
+.ch_2 {
+  background-image: url('../img/chashka.png');
+  background-size: cover;
+  height: 3vw;
+  width: 3.9vw;
+  margin-left: 85vw;
+  margin-top: 48vw;
+  position: absolute;
+  z-index: 2;
+}
+.ch_3 {
+  background-image: url('../img/chashka.png');
+  background-size: cover;
+  height: 3vw;
+  width: 3.9vw;
+  margin-left: 92vw;
+  margin-top: 44vw;
+  position: absolute;
+  z-index: 2;
+}
+.s {
+  background-image: url('../img/sigareta.png');
+  background-size: cover;
+  height: 1vw;
+  width: 6vw;
+  margin-left: 4vw;
+  margin-top: 51vw;
+  position: absolute;
+  z-index: 2;
+}
+.s_1 {
+  background-image: url('../img/sigareta.png');
+  background-size: cover;
+  height: 1vw;
+  width: 6vw;
+  margin-left: 51vw;
+  margin-top: 54vw;
+  position: absolute;
+  z-index: 2;
+}
+.s_2 {
+  background-image: url('../img/sigareta.png');
+  background-size: cover;
+  height: 1vw;
+  width: 6vw;
+  margin-left: 79vw;
+  margin-top: 51vw;
+  position: absolute;
+  z-index: 2;
+}
+.s_3 {
+  background-image: url('../img/sigareta.png');
+  background-size: cover;
+  height: 1vw;
+  width: 6vw;
+  margin-left: 87vw;
+  margin-top: 54vw;
+  position: absolute;
+  z-index: 2;
+}
+
+
+/* 3 game */
+.Tgame {
+  position: relative;
+  background: rgba(143, 215, 255, 1);
+  height: 56vw;
+  width: 100vw;
+}
+.fr {
+  background-image: url('../img/fire1.png');
+  background-size: cover;
+  height: 15.1vw;
+  width: 16.4vw;
+  margin-left: 10vw;
+  margin-top: 38vw;
+  position: absolute;
+  z-index: 2;
+  opacity: 100%;
+}
+.fr1 {
+  background-image: url('../img/fire2.png');
+  background-size: cover;
+  height: 7vw;
+  width: 8.5vw;
+  margin-left: 23vw;
+  margin-top: 22vw;
+  position: absolute;
+  z-index: 2;
+  opacity: 100%;
+}
+.fr2 {
+  background-image: url('../img/fire3.png');
+  background-size: cover;
+  height: 11vw;
+  width: 9.1vw;
+  margin-left: 39vw;
+  margin-top: 27vw;
+  position: absolute;
+  z-index: 2;
+  opacity: 100%;
+}
+.fr3 {
+  background-image: url('../img/fire2.png');
+  background-size: cover;
+  height: 7vw;
+  width: 8.5vw;
+  margin-left: 74vw;
+  margin-top: 30vw;
+  position: absolute;
+  z-index: 2;
+  opacity: 100%;
+}
+.fr4 {
+  background-image: url('../img/fire4.png');
+  background-size: cover;
+  height: 11vw;
+  width: 9.4vw;
+  margin-left: 54vw;
+  margin-top: 43vw;
+  position: absolute;
+  z-index: 2;
+  opacity: 100%;
+}
+.fr5 {
+  background-image: url('../img/fire5.png');
+  background-size: cover;
+  height: 11.2vw;
+  width: 9.4vw;
+  margin-left: 88vw;
+  margin-top: 41vw;
+  position: absolute;
+  z-index: 2;
+  opacity: 100%;
+}
+.fr6 {
+  background-image: url('../img/fire1.png');
+  background-size: cover;
+  height: 11vw;
+  width: 12vw;
+  margin-left: 63vw;
+  margin-top: 35vw;
+  position: absolute;
+  z-index: 1;
+  opacity: 100%;
+}
+
+.ground1 {
+  background-image: url('../img/ground1.png');
+  background-size: cover;
+  margin-top: 24vw;
+  margin-left: 0vw;
+  height: 32vw;
+  width: 100vw;
+  position: absolute;
+  z-index: 1;
+}
+.sun1 {
+  background-image: url('../img/sun.png');
+  background-size: cover;
+  height: 15vw;
+  width: 15vw;
+  margin-left: 5vw;
+  margin-top: 2vw;
+  position: absolute;
+  z-index: 1;
+}
+.t1_1 {
+  background-image: url('../img/derevo.png');
+  background-size: cover;
+  height: 32vw;
+  width: 26.6vw;
+  margin-left: 28vw;
+  margin-top: 12.5vw;
+  position: absolute;
+  z-index: 1;
+}
+.t3_1 {
+  background-image: url('../img/tua.png');
+  background-size: cover;
+  height: 44vw;
+  width: 18.4vw;
+  margin-left: 62vw;
+  margin-top: 1.5vw;
+  position: absolute;
+  z-index: 1;
+}
+.t5_1 {
+  background-image: url('../img/mini_tua.png');
+  background-size: cover;
+  height: 29vw;
+  width: 19.3vw;
+  margin-left: 19vw;
+  margin-top: 19.5vw;
+  position: absolute;
+  z-index: 1;
+}
+.t6_1 {
+  background-image: url('../img/big_cust.png');
+  background-size: cover;
+  height: 25vw;
+  width: 17.9vw;
+  margin-left: 9vw;
+  margin-top: 26.5vw;
+  position: absolute;
+  z-index: 2;
+}
+.t2_1 {
+  background-image: url('../img/tree1.png');
+  background-size: cover;
+  height: 25vw;
+  width: 13.8vw;
+  margin-left: 3vw;
+  margin-top: 20.5vw;
+  position: absolute;
+  z-index: 1;
+}
+.t2_2 {
+  background-image: url('../img/tree2.png');
+  background-size: cover;
+  height: 34.9vw;
+  width: 19.1vw;
+  margin-left: 48vw;
+  margin-top: 16.5vw;
+  position: absolute;
+  z-index: 2;
+}
+.c1_1 {
+  background-image: url('../img/cust3.png');
+  background-size: cover;
+  height: 7vw;
+  width: 17vw;
+  margin-left: 21vw;
+  margin-top: 43.5vw;
+  position: absolute;
+  z-index: 1;
+}
+.c1_2 {
+  background-image: url('../img/cust3.png');
+  background-size: cover;
+  height: 8vw;
+  width: 19.3vw;
+  margin-left: 43vw;
+  margin-top: 44.5vw;
+  position: absolute;
+  z-index: 2;
+}
+.t4_1 {
+  background-image: url('../img/tree3.png');
+  background-size: cover;
+  height: 35vw;
+  width: 18.6vw;
+  margin-left: 79vw;
+  margin-top: 11.5vw;
+  position: absolute;
+  z-index: 1;
+}
+.t4_2 {
+  background-image: url('../img/tree3.png');
+  background-size: cover;
+  height: 26vw;
+  width: 13.8vw;
+  margin-left: 73vw;
+  margin-top: 23vw;
+  position: absolute;
+  z-index: 2;
+}
+.c2_1 {
+  background-image: url('../img/cust1.png');
+  background-size: cover;
+  height: 13.9vw;
+  width: 19.7vw;
+  margin-left: 70vw;
+  margin-top: 36.5vw;
+  position: absolute;
+  z-index: 2;
+}
+.fl1_1 {
+  background-image: url('../img/fl1.png');
+  background-size: cover;
+  height: 4vw;
+  width: 5vw;
+  margin-left: 31vw;
+  margin-top: 50.5vw;
+  position: absolute;
+  z-index: 2;
+}
+.fl1_2 {
+  background-image: url('../img/fl1.png');
+  background-size: cover;
+  height: 4vw;
+  width: 5vw;
+  margin-left: 60vw;
+  margin-top: 50.5vw;
+  position: absolute;
+  z-index: 2;
+}
+.fl1_3 {
+  background-image: url('../img/fl1.png');
+  background-size: cover;
+  height: 4vw;
+  width: 5vw;
+  margin-left: 74vw;
+  margin-top: 50.5vw;
+  position: absolute;
+  z-index: 2;
+}
+.fl2_1 {
+  background-image: url('../img/fl2.png');
+  background-size: cover;
+  height: 5vw;
+  width: 5vw;
+  margin-left: 17vw;
+  margin-top: 35vw;
+  position: absolute;
+  z-index: 2;
+}
+.fl2_2 {
+  background-image: url('../img/fl2.png');
+  background-size: cover;
+  height: 5vw;
+  width: 5vw;
+  margin-left: 11vw;
+  margin-top: 43vw;
+  position: absolute;
+  z-index: 2;
+}
+.fl2_3 {
+  background-image: url('../img/fl2.png');
+  background-size: cover;
+  height: 5vw;
+  width: 5vw;
+  margin-left: 48vw;
+  margin-top: 41.5vw;
+  position: absolute;
+  z-index: 1;
+}
+.fl2_4 {
+  background-image: url('../img/fl2.png');
+  background-size: cover;
+  height: 5vw;
+  width: 5vw;
+  margin-left: 82vw;
+  margin-top: 43vw;
+  position: absolute;
+  z-index: 2;
+}
+.fl3_1 {
+  background-image: url('../img/fl3.png');
+  background-size: cover;
+  height: 5.1vw;
+  width: 5vw;
+  margin-left: 41vw;
+  margin-top: 50vw;
+  position: absolute;
+  z-index: 2;
+}
+.fl3_2 {
+  background-image: url('../img/fl3.png');
+  background-size: cover;
+  height: 5.1vw;
+  width: 5vw;
+  margin-left: 74vw;
+  margin-top: 40vw;
+  position: absolute;
+  z-index: 2;
+}
+
+
+/* finish */
+.butt {
+  background-image: url('../img/thanks.png');
+  background-size: cover;
+  height: 6.2vw;
+  width: 40vw;
+  margin-left: 30vw;
+  margin-top: 21vw;
+  position: absolute;
+  z-index: 3;
+}
+.back {
+  position: relative;
+  background: rgba(37, 37, 37, 0.5);
+  opacity: 50%;
+  height: 56vw;
+  width: 100vw;
+  z-index: 2;
+}
+.menu1 {
+  background-image: url('../img/menu.png');
+  background-size: cover;
+  height: 4.1vw;
+  width: 13vw;
+  margin-left: 2vw;
+  margin-top: 1vw;
+  position: absolute;
+  z-index: 3;
+}
+.butt1 {
+  background-image: url('../img/butt1.png');
+  background-size: cover;
+  height: 6.2vw;
+  width: 40vw;
+  margin-left: 30vw;
+  margin-top: 21vw;
+  position: absolute;
+  z-index: 3;
+}
+.butt2 {
+  background-image: url('../img/butt2.png');
+  background-size: cover;
+  height: 6.2vw;
+  width: 40vw;
+  margin-left: 30vw;
+  margin-top: 28vw;
+  position: absolute;
+  z-index: 3;
+}
+
+.back_1 {
+  position: relative;
+  background: rgba(37, 37, 37, 0.5);
+  opacity: 50%;
+  height: 56vw;
+  width: 100vw;
+  z-index: 2;
+}
+.menu1_1 {
+  background-image: url('../img/menu.png');
+  background-size: cover;
+  height: 4.1vw;
+  width: 13vw;
+  margin-left: 2vw;
+  margin-top: 1vw;
+  position: absolute;
+  z-index: 3;
+}
+.butt1_1 {
+  background-image: url('../img/butt1.png');
+  background-size: cover;
+  height: 6.2vw;
+  width: 40vw;
+  margin-left: 30vw;
+  margin-top: 21vw;
+  position: absolute;
+  z-index: 3;
+}
+.butt2_1 {
+  background-image: url('../img/butt2.png');
+  background-size: cover;
+  height: 6.2vw;
+  width: 40vw;
+  margin-left: 30vw;
+  margin-top: 28vw;
+  position: absolute;
+  z-index: 3;
+}
+
+.back_2 {
+  position: relative;
+  background: rgba(37, 37, 37, 0.5);
+  opacity: 50%;
+  height: 56vw;
+  width: 100vw;
+  z-index: 2;
+}
+.menu1_2 {
+  background-image: url('../img/menu.png');
+  background-size: cover;
+  height: 4.1vw;
+  width: 13vw;
+  margin-left: 2vw;
+  margin-top: 1vw;
+  position: absolute;
+  z-index: 3;
+}
+.butt1_2 {
+  background-image: url('../img/butt1.png');
+  background-size: cover;
+  height: 6.2vw;
+  width: 40vw;
+  margin-left: 30vw;
+  margin-top: 21vw;
+  position: absolute;
+  z-index: 3;
+}
+.butt2_2 {
+  background-image: url('../img/butt2.png');
+  background-size: cover;
+  height: 6.2vw;
+  width: 40vw;
+  margin-left: 30vw;
+  margin-top: 28vw;
+  position: absolute;
+  z-index: 3;
+}
+
+/* loch */
+.loch {
+  position: relative;
+  background: rgba(143, 215, 255, 1);
+  height: 56vw;
+  width: 100vw;
+}
+.loch1 {
+  background-image: url('../img/loser.png');
+  background-size: cover;
+  height: 7.2vw;
+  width: 40vw;
+  margin-left: 30vw;
+  margin-top: 23vw;
+  position: absolute;
+  z-index: 3;
+}
+.ground2 {
+  background-image: url('../img/menu.png');
+  background-size: cover;
+  margin-top: 24vw;
+  margin-left: 0vw;
+  height: 32vw;
+  width: 100vw;
+  background: black;
+  position: absolute;
+  z-index: 1;
+}
+
+/* thanks */
+.thanks {
+  background-image: url('../img/thanks.png');
+  background-size: cover;
+  height: 7.2vw;
+  width: 40vw;
+  margin-left: 30vw;
+  margin-top: 23vw;
+  position: absolute;
+  z-index: 3;
+}
+.thanks_1 {
+  background-image: url('../img/thanks.png');
+  background-size: cover;
+  height: 7.2vw;
+  width: 40vw;
+  margin-left: 30vw;
+  margin-top: 23vw;
+  position: absolute;
+  z-index: 3;
+}
