@@ -252,7 +252,7 @@ $(document).ready(function() {
         }
   });
 
-  if ($('.fr6, .fr5, .fr4, .fr3, .fr2, .fr1').hasClass('none')) {
+  if ($('.fr6').hasClass('none') && ($('.fr5').hasClass('none') && ($('.fr4').hasClass('none') && ($('.fr3').hasClass('none') && ($('.fr2').hasClass('none') && ($('.fr1').hasClass('none')) {
     setTimeout(function() {
       $(".finish_2").removeClass("none");
     }, 1000)
