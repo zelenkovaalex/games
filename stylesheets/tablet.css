@@ -915,20 +915,10 @@ p, h1 {
 .butt1 {
   background-image: url('../img/butt1.png');
   background-size: cover;
-  height: 6.2vw;
-  width: 40vw;
-  margin-left: 30vw;
-  margin-top: 21vw;
-  position: absolute;
-  z-index: 3;
-}
-.butt2 {
-  background-image: url('../img/butt2.png');
-  background-size: cover;
-  height: 6.2vw;
-  width: 40vw;
-  margin-left: 30vw;
-  margin-top: 28vw;
+  height: 9.2vw;
+  width: 59vw;
+  margin-left: 19vw;
+  margin-top: 67vw;
   position: absolute;
   z-index: 3;
 }
@@ -954,20 +944,10 @@ p, h1 {
 .butt1_1 {
   background-image: url('../img/butt1.png');
   background-size: cover;
-  height: 6.2vw;
-  width: 40vw;
-  margin-left: 30vw;
-  margin-top: 21vw;
-  position: absolute;
-  z-index: 3;
-}
-.butt2_1 {
-  background-image: url('../img/butt2.png');
-  background-size: cover;
-  height: 6.2vw;
-  width: 40vw;
-  margin-left: 30vw;
-  margin-top: 28vw;
+  height: 9.2vw;
+  width: 59vw;
+  margin-left: 19vw;
+  margin-top: 67vw;
   position: absolute;
   z-index: 3;
 }
@@ -993,52 +973,14 @@ p, h1 {
 .butt1_2 {
   background-image: url('../img/butt1.png');
   background-size: cover;
-  height: 6.2vw;
-  width: 40vw;
-  margin-left: 30vw;
-  margin-top: 21vw;
-  position: absolute;
-  z-index: 3;
-}
-.butt2_2 {
-  background-image: url('../img/butt2.png');
-  background-size: cover;
-  height: 6.2vw;
-  width: 40vw;
-  margin-left: 30vw;
-  margin-top: 28vw;
+  height: 9.2vw;
+  width: 59vw;
+  margin-left: 19vw;
+  margin-top: 67vw;
   position: absolute;
   z-index: 3;
 }
 
-/* loch */
-.loch {
-  position: relative;
-  background: rgba(143, 215, 255, 1);
-  height: 143vw;
-  width: 100vw;
-}
-.loch1 {
-  background-image: url('../img/loser.png');
-  background-size: cover;
-  height: 7.2vw;
-  width: 40vw;
-  margin-left: 30vw;
-  margin-top: 23vw;
-  position: absolute;
-  z-index: 3;
-}
-.ground2 {
-  background-image: url('../img/menu.png');
-  background-size: cover;
-  margin-top: 24vw;
-  margin-left: 0vw;
-  height: 32vw;
-  width: 100vw;
-  background: black;
-  position: absolute;
-  z-index: 1;
-}
 
 /* thanks */
 .thanks {
