@@ -46,12 +46,18 @@ $(document).ready(function() {
     $(".ready").addClass("none");
     setTimeout(function(){
       $(".finish").removeClass("none");
-    }, 4000);
+    }, 2000);
 	});
 
+  $(".sun, .t1, .t2, .t3, .t4, .t5, .t6, .trava, .c1, .c2, .fl1, .fl2, .fl3").draggable(function () {
+  });
 
+	$(".sun, .t1, .t2, .t3, .t4, .t5, .t6, .trava, .c1, .c2, .fl1, .fl2, .fl3").droppable(function () {
+		$('this').css('transform', 'scale(2)');
+  });
 
 	$(".butt1").click(function() {
+		location.reload();
 		$(".Sgame").addClass("none");
     $(".menu").removeClass("none");
 	});
@@ -131,6 +137,7 @@ $(document).ready(function() {
 
 
 	$(".butt1_1").click(function() {
+		location.reload();
 		$(".Sgame").addClass("none");
     $(".menu").removeClass("none");
 	});
@@ -252,13 +259,17 @@ $(document).ready(function() {
         }
   });
 
-  if ($('.fr6').hasClass('none') && ($('.fr5').hasClass('none') && ($('.fr4').hasClass('none') && ($('.fr3').hasClass('none') && ($('.fr2').hasClass('none') && ($('.fr1').hasClass('none')) {
-    setTimeout(function() {
-      $(".finish_2").removeClass("none");
-    }, 1000)
-  }
+
+	setInterval(function() {
+		if ($('.fr6').hasClass('none') && $('.fr5').hasClass('none') && $('.fr4').hasClass('none') && $('.fr3').hasClass('none') && $('.fr2').hasClass('none') && $('.fr1').hasClass('none')) {
+			setTimeout(function() {
+				$(".finish_2").removeClass("none");
+			}, 1000)
+		}
+	}, 1000)
 
 	$(".butt1_2").click(function() {
+		location.reload();
 		$(". Tgame").addClass("none");
     $(".menu").removeClass("none");
 	});
