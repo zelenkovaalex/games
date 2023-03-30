@@ -130,7 +130,11 @@ $(document).ready(function() {
 	$(".Sgame").click(function() {
     count +=1;
     if (count == 16 ) {
-      $(".finish_1").removeClass("none");
+			$(".thanks").removeClass("none");
+			setTimeout(function() {
+				$(".thanks").addClass("none");
+				$(".finish_1").removeClass("none");
+			}, 1000)
     }
  });
 
@@ -262,7 +266,9 @@ $(document).ready(function() {
 
 	setInterval(function() {
 		if ($('.fr6').hasClass('none') && $('.fr5').hasClass('none') && $('.fr4').hasClass('none') && $('.fr3').hasClass('none') && $('.fr2').hasClass('none') && $('.fr1').hasClass('none')) {
+			$(".thanks_1").removeClass("none");
 			setTimeout(function() {
+				$(".thanks_1").addClass("none");
 				$(".finish_2").removeClass("none");
 			}, 1000)
 		}
