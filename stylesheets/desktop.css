@@ -229,6 +229,15 @@ p, h1 {
   position: absolute;
   z-index: 1;
 }
+.ground_1 {
+  margin-top: 24vw;
+  margin-left: 0vw;
+  height: 32vw;
+  width: 100vw;
+  background: rgba(1, 183, 109, 1);
+  position: absolute;
+  z-index: 1;
+}
 .tablet {
   background-image: url('../img/tablet.png');
   background-size: cover;

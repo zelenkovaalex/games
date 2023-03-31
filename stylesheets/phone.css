@@ -228,6 +228,15 @@ p, h1 {
   position: absolute;
   z-index: 1;
 }
+.ground_1 {
+  margin-top: 98vw;
+  margin-left: 0vw;
+  height: 71vw;
+  width: 100vw;
+  background: rgba(1, 183, 109, 1);
+  position: absolute;
+  z-index: 1;
+}
 .tablet {
   background-image: url('../img/plashka2.png');
   background-size: cover;

@@ -56,6 +56,11 @@ $(document).ready(function() {
 		$('this').css('transform', 'scale(2)');
   });
 
+	$(".trava").click(function() {
+		$(".ground").addClass("none");
+		$(".ground_1").removeClass("none");
+	});
+
 	$(".butt1").click(function() {
 		location.reload();
 		$(".Sgame").addClass("none");
